@@ -1,0 +1,531 @@
+.parent	{
+	display: flex;
+	flex-direction: row;
+	width: 300px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child {
+	width: 60px;
+	height: 50px;
+	border: 1px solid green;
+}
+.mother	{
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	height: 300px;
+	border: 1px solid red;
+}
+.son {
+	width: 60px;
+	height: 50px;
+	border: 1px solid green;
+}
+.father	{
+	display: flex;
+	flex-direction: row-reverse;
+	width: 300px;
+	height: 200px;
+	border: 1px solid red;
+}
+.douther {
+	width: 60px;
+	height: 50px;
+	border: 1px solid green;
+}
+.red	{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 400px;
+    height: 300px;
+    border: 1px solid red;
+}
+    .black {
+    width: 60px;
+    height: 50px;
+    border: 1px solid green;
+    }
+    
+    /* 101 здание */
+    /* 101 здание */
+    .anton	{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        justify-content: flex-end;
+    }
+    .matvey {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;
+    }
+    .andrey	{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        justify-content: flex-end;
+    }
+    .sergey {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;
+    }
+    .andrey1	{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        justify-content: flex-start;
+    }
+    .matvey1 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;
+    }
+    .andrey2	{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        justify-content: flex-end;
+    }
+    .matvey2 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;
+    }
+    .andrey3	{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        justify-content: flex-end;
+    }
+    .matvey3 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;
+    }
+    /* 102 здание */
+    /* 102 здание */
+    .andrey4	{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .matvey4 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;
+    }
+    .andrey5	{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    .matvey5 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .andrey6	{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+    .matvey6 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;
+    }
+    .andrey7	{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    .matvey7 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;
+    }
+    .andrey8	{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    .matvey8 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .andrey9	{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .matvey9 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .andrey10	{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .matvey10 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    /* 103 здание */
+    /* 103 здание */
+    .andrey11	{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        justify-content: center;
+        align-items: center;
+    }
+    .matvey11 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .andrey12	{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        justify-content: center;
+        align-items: center;
+    }
+    .matvey12 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .andrey13	{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        justify-content: end;
+        align-items: center;
+    }
+    .matvey13 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .andrey14	{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .matvey14 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .andrey15	{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        justify-content: center;
+        align-items: center;
+    }
+    .matvey15 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .andrey16	{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        justify-content: center;
+        align-items: center;
+    }
+    .matvey16 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    /* 104 здание */
+    /* 104 здание */
+    .andrey17	{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        align-items: stretch;
+        justify-content: center;
+    }
+    .matvey17 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .andrey18	{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        align-items: stretch;
+        justify-content: center;
+    }
+    .matvey18 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .andrey19	{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+    .matvey19 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    /* 105 здание */
+    /* 105 здание */
+    .andrey20	{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        align-items: flex-end;
+        justify-content: space-evenly;
+    }
+    .matvey20 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .andrey21	{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .matvey21 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .andrey22	{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .matvey22 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .andrey23	{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .matvey23 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .andrey24	{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .matvey24 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .andrey25	{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .matvey25 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .andrey26	{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .matvey26 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .andrey27	{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .matvey27 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .andrey28	{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+    .matvey28 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    /* 106 здание */
+    /* 106 здание */
+    .andrey29	{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        align-items: center;
+        justify-content: center;
+    }
+    .matvey29 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .elem {
+        align-self: flex-end;
+    }
+    .andrey30	{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        align-items: center;
+        justify-content: center;
+    }
+    .matvey30 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .elem1 {
+        align-self: center
+        width: 20px;
+        height: 20px;
+    }
+    .andrey31	{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 300px;
+        border: 1px solid red;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .matvey31 {
+        width: 60px;
+        height: 50px;
+        border: 1px solid green;    
+    }
+    .elem2 {
+        align-self: center;
+    }
+
+
